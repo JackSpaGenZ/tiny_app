@@ -1,0 +1,14 @@
+Setup pakage module for nodejs :   npm install package-name@version --save
+
+thiet lap ham khoi tao cho node 
+
+storage.init({
+    dir : "path/to/save",
+    ttl : false
+});
+
+storage.initSync({
+    dir : "path/to/save",
+    ttl : false
+});
+

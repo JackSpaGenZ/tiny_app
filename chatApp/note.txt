@@ -1,0 +1,11 @@
+MVC module ???
+
+Views : React + Vite + TS
+
+Back-end : NodeJS
+
+Back-end : using nodejs :  
+                        - express 
+                        - cors 
+                        - axios
+                    
