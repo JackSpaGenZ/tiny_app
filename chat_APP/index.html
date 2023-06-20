@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: #919191;
+        }
+        #message-container {
+            width: 80%;
+            max-width: 1200px;
+            float: left;
+            background: red;
+        }
+        #message-container div {
+            background-color: #ccc;
+            padding: 5px;
+        }
+        #message-container div:nth-child(2n){
+            background-color: #fff;
+            color: #000;
+        }
+        #message-container div:nth-child(2n+1){
+            background-color: #5a5aff;
+            color: #ccc;
+        }
+        #send-container {
+
+        }
+    </style>
+</head>
+<body>
+    <div id="message-container"></div>
+    <form id="send-container">
+        <input type="text" id="message-input">
+        <button type="submit" id="send-button">send</button>
+    </form>
+</body>
+</html>
